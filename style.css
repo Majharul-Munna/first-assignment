@@ -52,6 +52,7 @@ p{
     color: rgb(84, 84, 84);
     padding: 50px 50px; 
     margin-left: 3%;
+    border-radius: 3%;
     background-color: rgba(248, 240, 240, 0.593);
     text-align: center;
 }
@@ -87,6 +88,7 @@ input[type=text] {
     background-color: rgb(221, 236, 255);
     background-image: url(icons/food.png);
     background-repeat: no-repeat;
+    border-radius: 3%;
     text-align: left;
     margin-left: 5%;
     padding: 20px 20px;
@@ -96,6 +98,7 @@ input[type=text] {
     background-color: rgb(255, 221, 221);
     background-image: url(icons/shelter.png);
     background-repeat: no-repeat;
+    border-radius: 3%;
     text-align: left;
     margin-left: 5%;
     padding: 20px 20px;
@@ -107,9 +110,21 @@ input[type=text] {
     padding-top: 50px;
     margin-left: 5%;
     margin-right: 5%;
+    border-radius: 3%;
     background-color: rgb(255, 243, 198);
     background-image: url(icons/Frame-1.png);
     background-repeat: no-repeat;
+}
+#n-sec{
+    margin-top: 100px;
+    display: flex;
+}
+.n-half{
+    width: 50%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
 }
   .p-plan{
     text-align: left;
