@@ -1,0 +1,76 @@
+.help{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding-top: opx;
+    
+}
+.head{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 87, 140), rgb(255, 61, 123));
+    padding: 12px 24px;
+    border-radius: 5%;
+    color: white;
+    font-weight: 700;
+    
+}
+.today{
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+#d-head{
+    color: black;
+}
+#d-p{
+    color: rgb(119, 109, 109);
+}
+.div-taka{
+    display: flex;
+    font-display: 700px;
+}
+.taka{
+    font-size: 60px;
+    padding: 50px 50px; 
+    margin-left: 3%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+#d-taka{
+    font-size: 60px;
+    padding: 50px 50px;
+    margin-left: 3%;
+    text-align: center;
+    background-color: rgb(255, 138, 96);
+    border: 2px solid orangered;
+}
+#form-d{
+    display: block;
+    text-align: center;
+}
+input[type=text] {
+    padding-left: 200px;
+    padding-right: 200px;
+    border: none;
+    border-bottom: 2px solid rgb(75, 75, 75); 
+  }
+  #d-button{
+    
+    margin-top: 50px;
+    text-align: center;
+  }
+  
